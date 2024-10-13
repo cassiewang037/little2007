@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Study by Little et al. (2007, Evolution and Human Behavior)"
+author: "Cassie Wang (tiw037@ucsd.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,8 +12,8 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
-
+I chose to replicate the study by Little and others (https://doi.org/10.1016/j.evolhumbehav.2007.11.007) on social influence in human face preference because it provides valuable insight into the social transmission behind human mate choice. This result shows that both men and women rate opposite-sex individuals as more attractive when paired with an attractive partner, especially in long-term relationships. The study’s finding reveals the impact of social influence on mate choice decisions, extending beyond mere preference of physical features. This aligns with our research interests in understanding psychology, specifically the mating preference under social context. The result suggests a universal theory in the social transmission of attractives that is potentially true across cultures, making it an ideal candidate for a replication study. It can allow us to understand better how social signals interact with natural instincts in human beings. 
+In my replication study, I will create an online survey method targeting English-speaking countries. The participants will evaluate the attractiveness of opposite-sex faces with prompts suggesting the target and their partner are in long-term or short-term relationships. Similar to the original experiment, participants will also be opposite-sex faces paired with an attractive or unattractive same-sex partner. They will then rate the attractiveness of the opposite-sex target face using a 7-point scale. The challenges in replicating this study may be manipulating facial features similar to the original study, particularly in terms of software tools that tune the masculinity/femininity of faces. Acquiring permission to use the original study’s photos may also pose difficulties. Additionally, managing a large volume of responses from an online survey and performing statistical analysis could take a significant amount of effort.
 
 ## Methods
 
