@@ -1,5 +1,5 @@
 ---
-title: "Replication of Study by Little et al. (2007, Evolution and Human Behavior)"
+title: "Replication of Study by Young & Saxe. (2011, Cognition)"
 author: "Cassie Wang (tiw037@ucsd.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
@@ -12,8 +12,9 @@ format:
 
 ## Introduction
 
-I chose to replicate the study by Little and others (https://doi.org/10.1016/j.evolhumbehav.2007.11.007) on social influence in human face preference because it provides valuable insight into the social transmission behind human mate choice. This result shows that both men and women rate opposite-sex individuals as more attractive when paired with an attractive partner, especially in long-term relationships. The study’s finding reveals the impact of social influence on mate choice decisions, extending beyond mere preference of physical features. This aligns with our research interests in understanding psychology, specifically the mating preference under social context. The result suggests a universal theory in the social transmission of attractives that is potentially true across cultures, making it an ideal candidate for a replication study. It can allow us to understand better how social signals interact with natural instincts in human beings. 
-In my replication study, I will create an online survey method targeting English-speaking countries. The participants will evaluate the attractiveness of opposite-sex faces with prompts suggesting the target and their partner are in long-term or short-term relationships. Similar to the original experiment, participants will also be opposite-sex faces paired with an attractive or unattractive same-sex partner. They will then rate the attractiveness of the opposite-sex target face using a 7-point scale. The challenges in replicating this study may be manipulating facial features similar to the original study, particularly in terms of software tools that tune the masculinity/femininity of faces. Acquiring permission to use the original study’s photos may also pose difficulties. Additionally, managing a large volume of responses from an online survey and performing statistical analysis could take a significant amount of effort.
+I chose to replicate study by Young and Saxe (https://doi.org/10.1016/j.cognition.2011.04.005) because it provides a fundamental exploration of how intent influences moral judgments across distinct moral domains, specifically harm (e.g., assault) and purity violations (e.g., incest). This experiment highlights that while intent is a crucial factor in moral judgments of harm, it is less influential in purity violations. This result shows different moral evaluations of actions based on intent, offering insight into human decision-making in ethically complicated situations. It aligns with my interests in understanding decision-making process. The study offers a way to explore whether moral judgments are universal or context-specific, making it an excellent candidate for replication.
+
+In my replication study, I will conduct an online survey where participants will read scenarios involving both harm and purity violations, presented in the second-person perspective like Experiment 1A from the original study. Scenarios will be depicted as either intentionally or accidentally. Participants will rate the moral wrongness of each action on a 7-point scale, from “not at all morally wrong” to “very morally wrong.” Challenges in replicating this study may include recruiting a group of participants that reflects the original demographic across online platforms.
 
 ## Methods
 
@@ -23,25 +24,26 @@ Original effect size, power analysis for samples to achieve 80%, 90%, 95% power 
 
 ### Planned Sample
 
-Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+We plan to recruit participants with an age rang (18-68) through an online platforms such as Reddit. We will verify that participants have not completed a similar task before to avoid familiarity biases.
 
 ### Materials
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+We will use the exact moral judgment scenarios in second-perso perspectives used in the original study, including actions representing harm and purity violations with varied intentions (intentional vs. accidental).
 
 ### Procedure	
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Participants will be presented with a single randomly assigned moral judgment scenario and asked to rate its moral wrongness on a 7-point scale. This scale ranges from “not at all morally wrong” (1) to “very morally wrong” (7). 
+
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+A 2x2 ANOVA analysis will be conducted to assess the main effects and interactions between intent (accidental vs. intentional) and domain (harm vs. purity) on moral wrongness judgments.
 
 **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+First, the original study recruited participants from Amazon Mechanical Turk (MTurk). We might use other online platforms like Reddit or Twitter to achieve a broader demographics. We will maintain the same recruitment criteria to minimize the influence that can be caused by differences in demographics and believe that this minor differences will not significantly impact our ability to replicate the original findings.
 
 ### Methods Addendum (Post Data Collection)
 
@@ -66,16 +68,22 @@ Data preparation following the analysis plan.
 
 #### Load Relevant Libraries and Functions
 
+# Load libraries like dplyr, ggplot2, tidyverse 
+
 #### Import data
 
 #### Data exclusion / filtering
 
+# Exclude participants that are not in our targetd age range and already participated in similar research before
+
 #### Prepare data for analysis - create columns etc.
+
+# Ensure variables are correctly formatted and add necessary columns for analysis.
 ```
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.  
+We will conduct a 2x2 ANOVA to test the main and interaction effects of intent (intentional vs. accidental) and domain (harm vs. purity) on moral wrongness ratings. We expect the results to match the result of the original study that illustrated an interaction between intent and domain, indicating that intent plays a more significant role in harm than purity judgments.
 
 *Side-by-side graph with original graph is ideal here*
 
