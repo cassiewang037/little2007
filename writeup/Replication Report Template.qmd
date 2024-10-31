@@ -16,6 +16,9 @@ I chose to replicate study by Young and Saxe (https://doi.org/10.1016/j.cognitio
 
 In my replication study, I will conduct an online survey where participants will read scenarios involving both harm and purity violations, presented in the second-person perspective like Experiment 1A from the original study. Scenarios will be depicted as either intentionally or accidentally. Participants will rate the moral wrongness of each action on a 7-point scale, from “not at all morally wrong” to “very morally wrong.” Challenges in replicating this study may include recruiting a group of participants that reflects the original demographic across online platforms.
 
+## Design Oveview
+2 factors are manipulated in the experiments (intentional vs. accidental) (harm vs purity). 1 measure of moral wrongness are taken and repeated after each scenario is prestented. It used between participants design. If changed to within participants design, participants might be able to realize the purpose of the research, hence influence their responses to the study. The experiment will be double blind to reduce demand characteristics. Some of the confounds variables could be educational level or gender. 
+
 ## Methods
 
 ### Power Analysis
